@@ -3,5 +3,7 @@
 </script>
 
 <template>
-    About page.
+    <h1 class="my-4 text-gray-600">
+        About Page
+    </h1>
 </template>

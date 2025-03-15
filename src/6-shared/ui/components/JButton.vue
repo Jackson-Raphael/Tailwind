@@ -3,7 +3,3 @@
         <slot></slot>
     </button>
 </template>
-
-<style setup lang="ts">
-import defineProps from 'vue';
-</style>
