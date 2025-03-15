@@ -3,6 +3,8 @@
 
 ## TODO
 - Enforce Feature Slice Design rules with ESLint
+- Create a VSCode extension package
+- Add a guide for defaulting .css files to tailwind for the editor
 
 ## Quick Setup
 1. `npm install`
@@ -11,23 +13,24 @@
 
 ## Details
 
-This project uses Vue.js, Typescript, Tailwind.css, and Chart.js in a Feature Sliced Design (FSD) folder structure.
+This project uses Vue, Typescript, Tailwind, and Volt in a Feature Sliced Design (FSD) folder structure.
 
 ## Technology Stack
 
 - [Vue 3](https://vuejs.org/guide/introduction.html)
 - [Vue Router](https://router.vuejs.org/introduction.html)
 - [Typescript](https://www.typescriptlang.org)
-- [Tailwind CSS](https://tailwindcss.com/docs)
-- Volt! Upcoming PrimeVue fork with standalone tailwind components
+- [Tailwind 4](https://tailwindcss.com/docs)
 - [Chart.js](https://www.chartjs.org/)
 
 ## 📏 Coding Conventions
-These are mostly subjective choices but being consistent with things like this will help us collaborate.
+Subjective choices but being consistent with things like this will help us collaborate.
 
 - Always use the composition API when writing Vue components.
 - Place <script></script> tags before <template></template> tags when writing Vue components.
 - Avoid using <style></style> tags in Vue components and instead opt for tailwinds utility classes.
+- Avoid using @apply to build complex tailwind. Reusability should be driven by our components.
+
 
 ## 🏗️ Project Structure
 

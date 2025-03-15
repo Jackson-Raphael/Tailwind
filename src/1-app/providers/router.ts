@@ -5,6 +5,7 @@ import type { RouteRecordRaw } from 'vue-router'
 
 import { BaseLayout } from '@/2-pages/layout'
 import { HomePage } from '@/2-pages/home'
+import { AboutPage } from '@/2-pages/about'
 
 const routes: RouteRecordRaw[] = [
   {
@@ -14,6 +15,10 @@ const routes: RouteRecordRaw[] = [
       {
         path: '',
         component: HomePage
+      },
+      {
+        path: 'about',
+        component: AboutPage
       }
     ]
   }
