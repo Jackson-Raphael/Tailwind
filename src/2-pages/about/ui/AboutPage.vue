@@ -2,7 +2,6 @@
 
 </script>
 
-
 <template>
     About page.
 </template>
